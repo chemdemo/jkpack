@@ -1,4 +1,4 @@
-# pack
+# jkpack
 
 自动触发jenkins系统打包并搜集生成到artifactory的包，告别手工操作。
 
@@ -11,7 +11,7 @@ $ npm install -g jkpack
 ## 配置
 
 ``` bash
-$ pack -h
+$ jkpack -h
 ```
 
 ![cli](doc/screenshots/cli.png)
@@ -35,7 +35,7 @@ $ pack -h
 - 启动项目构建（只生成构建结果）：
 
 ``` bash
-$ pack -n node
+$ jkpack -n node
 ```
 
 ![buildonly](doc/screenshots/buildonly.png)
@@ -43,16 +43,16 @@ $ pack -n node
 - 构建并自动提交到redmine测试单：
 
 ``` bash
-$ pack -n node -i 474193 -p [Your OA password] -m test
+$ jkpack -n node -i 474193 -p [Your OA password] -m test
 ```
 
 ![all](doc/screenshots/all.png)
 
 
 
-如果觉得参数复杂也可以将参数写到名为`.pack.json`的配置文件中，存放在项目根目录即可：
+如果觉得参数复杂也可以将参数写到名为`.jkpack.json`的配置文件中，存放在项目根目录即可：
 
-`.pack.json`配置示例：
+`.jkpack.json`配置示例：
 
 ``` bash
 {
@@ -63,7 +63,7 @@ $ pack -n node -i 474193 -p [Your OA password] -m test
 }
 ```
 
-`password`这一项不推荐写到配置里，运行`pack`命令时输入即可。
+`password`这一项不推荐写到配置里，运行`jkpack`命令时输入即可。
 
 ## Licence
 

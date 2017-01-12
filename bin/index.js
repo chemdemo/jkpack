@@ -10,8 +10,8 @@ const fs = require('fs')
 const pack = require('../lib/pack')
 const pkg = require('../package.json')
 
-const globalConfPath = path.resolve(process.env.HOME || '', '.pack.json')
-const localConfPath = path.resolve(process.cwd(), '.pack.json')
+const globalConfPath = path.resolve(process.env.HOME || '', '.jkpack.json')
+const localConfPath = path.resolve(process.cwd(), '.jkpack.json')
 const globalConf = fs.existsSync(globalConfPath) ? require(globalConfPath) : {}
 const localConf = fs.existsSync(localConfPath) ? require(localConfPath) : {}
 

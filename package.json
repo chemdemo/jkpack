@@ -1,12 +1,11 @@
 {
-  "name": "@flyme/pack",
+  "name": "jkpack",
   "version": "0.0.1",
   "description": "Tool for automatically create jenkins task and upload output zip file to redmine.",
   "main": "bin/index.js",
   "preferGlobal": "true",
   "bin": {
-    "pack": "bin/index.js",
-    "p": "bin/index.js"
+    "jkpack": "bin/index.js"
   },
   "engines": {
     "node": ">=6"
@@ -16,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.meizu.com/fife/pack.git"
+    "url": "https://github.com/chemdemo/jkpack.git"
   },
   "keywords": [
     "jenkins",
-    "pack"
+    "jkpack"
   ],
   "author": "dmyang",
   "license": "ISC",
