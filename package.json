@@ -1,0 +1,34 @@
+{
+  "name": "@flyme/pack",
+  "version": "0.0.1",
+  "description": "Tool for automatically create jenkins task and upload output zip file to redmine.",
+  "main": "bin/index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "pack": "bin/index.js",
+    "p": "bin/index.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.meizu.com/fife/pack.git"
+  },
+  "keywords": [
+    "jenkins",
+    "pack"
+  ],
+  "author": "dmyang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "commander": "2.9.0",
+    "form-data": "2.1.2",
+    "opn": "4.0.2",
+    "table": "4.0.1"
+  }
+}
