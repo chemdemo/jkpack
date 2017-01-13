@@ -27,8 +27,6 @@ program
 
 pack(Object.assign(globalConf, localConf, {
     name: program.name,
-    // name: 'game-developer',
-    // name: 'iUc-20160321',
     // name: 'node',
     username: program.username || process.env['USERNAME'],
     password: program.password,
