@@ -58,7 +58,7 @@ $ jkpack -n node -i 474193 -p [Your OA password] -m test
 {
     "name": "node",
     "issueId": 474193,
-    "password": "[Your OA password]",
+    "password": "[Your redmine password]",
     "message": "[gitlog]"
 }
 ```
